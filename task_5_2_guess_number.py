@@ -10,8 +10,7 @@ while try_count <= 6:
     elif user_answer > answer:
         print("Вы ввели слишком большое число!")
     elif user_answer < answer:
-        print("Вы ввели слишком маленькое число!")
-    break    
+        print("Вы ввели слишком маленькое число!")   
     try_count += 1
 
 print("Конец игры!")
